@@ -25,6 +25,9 @@ th, td {
     font-weight: 700;
     font-size: 25px;
 }
+th:first-child {
+    vertical-align: middle;
+}
 
 tbody tr:nth-child(even) {
     background-color: #e9eaed;
